@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MpdIc.Lab2.PageLab2">
+    <StackLayout BackgroundColor="Yellow" Margin="5" >
+        <Grid Padding=" 30 ,50,20,30" RowSpacing=" 30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label  Text="Cтудент"     Grid.Column="0" Grid.Row="0"  FontSize="24"  FontAttributes="Bold"></Label>
+            <Label  Text="Имя"    VerticalOptions="Center"    Grid.Column="0" Grid.Row="1"  FontSize="18" FontAttributes="Bold" ></Label>
+            <Label  Text="Фамилия"  VerticalOptions="Center"     Grid.Column="0" Grid.Row="2"   FontSize="18" FontAttributes="Bold"></Label>
+            <Label  Text="Отчество"  VerticalOptions="Center"    Grid.Column="0" Grid.Row="3"  FontSize="18" FontAttributes="Bold"></Label>
+            <Label  Text="Номер группы" VerticalOptions="Center"    Grid.Column="0" Grid.Row="4"  FontSize="18" FontAttributes="Bold"></Label>
+            <Label  Text="Факультет"  VerticalOptions="Center"   Grid.Column="0" Grid.Row="5"  FontSize="18" FontAttributes="Bold"></Label>
+
+            <Button  Text=" Отправить" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" FontAttributes="Bold" ></Button>
+            <Entry Grid.Column="1" Grid.Row="1" BackgroundColor="White"></Entry>
+            <Entry Grid.Column="1" Grid.Row="2" BackgroundColor="White"></Entry>
+            <Entry Grid.Column="1" Grid.Row="3" BackgroundColor="White"></Entry>
+            <Entry Grid.Column="1" Grid.Row="4" BackgroundColor="White"></Entry>
+            <Entry Grid.Column="1" Grid.Row="5" BackgroundColor="White"></Entry>
+
+
+
+
+        </Grid>
+    </StackLayout>
+</ContentPage>
